@@ -3,8 +3,7 @@ colors zenburn " colour scheme
 syntax on " filetype detection by syntax
 
 set list " show invisible characters
-set listchars=tab:\ \  " set the characters for the invisibles
-hi SpecialKey ctermbg=red guibg=red
+set listchars=tab:›\ ,eol:« " set the characters for the invisibles
 
 " highlight column 80
 if exists("&colorcolumn")
